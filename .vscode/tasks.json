@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/place-names/csharp/PlaceNames/PlaceNames.csproj",
+                "${workspaceFolder}/insulter/csharp/insulter/insulter.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/place-names/csharp/PlaceNames/PlaceNames.csproj",
+                "${workspaceFolder}/insulter/csharp/insulter/insulter.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/place-names/csharp/PlaceNames/PlaceNames.csproj",
+                "${workspaceFolder}/insulter/csharp/insulter/insulter.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

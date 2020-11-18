@@ -18,7 +18,7 @@ function main() {
     }
   }
 
-  for (let i=0; i<indexes.length; i++) {
+  for (let i = 0; i < indexes.length; i++) {
     const index = indexes[i];
     console.log(insults[index]);
   }
