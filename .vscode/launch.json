@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/insulter/csharp/insulter/bin/Debug/netcoreapp3.1/insulter.dll",
+            "program": "${workspaceFolder}/word-frequency/csharp/word-frequency/bin/Debug/netcoreapp3.1/word-frequency.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/insulter/csharp/insulter",
+            "cwd": "${workspaceFolder}/word-frequency/csharp/word-frequency",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

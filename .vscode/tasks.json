@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/insulter/csharp/insulter/insulter.csproj",
+                "${workspaceFolder}/word-frequency/csharp/word-frequency/word-frequency.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/insulter/csharp/insulter/insulter.csproj",
+                "${workspaceFolder}/word-frequency/csharp/word-frequency/word-frequency.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/insulter/csharp/insulter/insulter.csproj",
+                "${workspaceFolder}/word-frequency/csharp/word-frequency/word-frequency.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
