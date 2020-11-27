@@ -81,7 +81,7 @@ namespace Grimoire
         }
     }
 
-    public class SpellBook
+    public class 4SpellBook
     {
         public string Title { get; set; }
         public List<Spell> Spells { get; set; }
