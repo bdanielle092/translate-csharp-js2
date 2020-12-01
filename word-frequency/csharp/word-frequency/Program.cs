@@ -8,6 +8,7 @@ namespace word_frequency
     {
         static void Main(string[] args)
         {
+
             string text = GetText();
             Regex rgx = new Regex("/[^a-zA-Z]/g");
             string[] words = rgx.Replace(text, "").Split(" ");

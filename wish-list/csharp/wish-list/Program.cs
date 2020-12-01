@@ -19,8 +19,8 @@ namespace wish_list
             };
 
             Console.WriteLine(" My Wishes...");
-        
-          //looped through the list of wishes and displayed the list in the terminal
+
+            //looped through the list of wishes and displayed the list in the terminal
             foreach (string wish in wishes)
             {
                 Console.WriteLine(wish);
