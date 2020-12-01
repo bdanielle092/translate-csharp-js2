@@ -10,27 +10,33 @@ namespace word_frequency
         {
 
             string text = GetText();
+            //The following example uses a regular expression to check for repeated occurrences of words in a string.
             Regex rgx = new Regex("/[^a-zA-Z]/g");
+            //Replace returns a new string in which all occurrences of a specified string in the current instance are replaced with another specified string, using the provided culture and case sensitivity.
+            //split is used to break a delimited string into substrings
             string[] words = rgx.Replace(text, "").Split(" ");
+            //made a dictionary to get our key: word and value: freqCount
             Dictionary<string, int> freqCount = new Dictionary<string, int>();
-
+            // looping through the words
             foreach (string word in words)
             {
+                // triming the white space out
                 if (word.Trim() == "")
                 {
                     continue;
                 }
-
+                //if the word had already been counted the add it again 
                 if (freqCount.ContainsKey(word))
                 {
                     freqCount[word] += 1;
                 }
+                //else just count the word once
                 else
                 {
                     freqCount[word] = 1;
                 }
             }
-
+            //looping through our keyValuePair to get the Count for each word
             foreach (var keyValuePair in freqCount)
             {
                 Console.WriteLine($"word: {keyValuePair.Key} Count: {keyValuePair.Value}");
